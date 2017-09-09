@@ -13,6 +13,7 @@ import java.util.List;
 
 /**
  * Created by KK00120638 on 9/7/2017.
+ * this is adaptor for country recycler view
  */
 
 public class DataSource extends RecyclerView.Adapter<DataSource.ViewHolder> {
