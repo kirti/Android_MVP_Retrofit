@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Created by KK00120638 on 9/8/2017.
- * this is adaptor for recycler view 
+ * this is adaptor for recycler view for users
  */
 
 public class UserAdaptor extends RecyclerView.Adapter<UserAdaptor.ViewHolder>{
