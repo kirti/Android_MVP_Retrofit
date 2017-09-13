@@ -37,6 +37,7 @@ public class CountryPresenter {
                     //
                     List<obj> result1 = result.getRestResponse().getResult();
                     mListener.countriesReady(result1);
+                    mListener.setSharedPrefCountry(result1);
 
 
                 }
@@ -62,5 +63,6 @@ public class CountryPresenter {
 
     public interface CountryPresenterListener {
         void countriesReady(List<obj> countries);
+        void setSharedPrefCountry(List<obj> resultUser);
     }
 }

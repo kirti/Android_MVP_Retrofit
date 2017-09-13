@@ -15,7 +15,7 @@ public interface UserContract {
     interface View extends BaseView<Presenter>{
         // set data for adaptor
         void addUserData(List<UserResponse> resultUser);
-
+        void setSharedPref(List<UserResponse> resultUser);
     }
 
     interface Presenter extends BasePresenter{

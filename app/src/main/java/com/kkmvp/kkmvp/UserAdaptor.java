@@ -31,7 +31,7 @@ public class UserAdaptor extends RecyclerView.Adapter<UserAdaptor.ViewHolder>{
 
     @Override
     public void onBindViewHolder(UserAdaptor.ViewHolder holder, int position) {
-       holder.UserId.setText(listOfUserResponse.get(position).getUserId());
+      // holder.UserId.setText(listOfUserResponse.get(position).getUserId());
         holder.UserBody.setText(listOfUserResponse.get(position).getBody());
         holder.UserTitle.setText(listOfUserResponse.get(position).getTitle());
     }
@@ -50,7 +50,7 @@ public class UserAdaptor extends RecyclerView.Adapter<UserAdaptor.ViewHolder>{
         private TextView UserId,UserTitle,UserBody;
         public ViewHolder(View itemView) {
             super(itemView);
-            UserId =(TextView)itemView.findViewById(R.id.UserId);
+            //UserId =(TextView)itemView.findViewById(R.id.UserId);
             UserTitle =(TextView)itemView.findViewById(R.id.UserTitle);
             UserBody =(TextView)itemView.findViewById(R.id.UserBody);
         }

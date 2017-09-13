@@ -48,6 +48,7 @@ public class UserPresenter implements UserContract.Presenter {
                 List<UserResponse> resultUser = response.body();
 
                   userView.addUserData(resultUser);
+                  userView.setSharedPref(resultUser);
             }
 
             @Override
